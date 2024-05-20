@@ -9,7 +9,7 @@ Transform: 'AWS::Serverless-2016-10-31'
 
 Globals:
   Function:
-    Runtime: nodejs18.x
+    Runtime: nodejs12.x
     Timeout: 30
     Environment:
       Variables:
